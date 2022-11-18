@@ -1,9 +1,8 @@
 # Бойлерплейт для ВК-бота
 
 
-## Title
-1. text
-2. text
+## Что бы склонитьвать роект проект
+```git clone https://github.com/Kr1t1ka/boilerplate_vk_bot.git```
 
 
 ## Title 1
