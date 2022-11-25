@@ -34,8 +34,8 @@ class Response:
         if self._endpoint.keyboard:
             keyboard.add_line()
         keyboard.add_button(
-            "Главная",
-            color=VkKeyboardColor.NEGATIVE,
+            "Хочу участвовать!",
+            color=VkKeyboardColor.POSITIVE,
             payload={"action": "main"},
         )
         return keyboard

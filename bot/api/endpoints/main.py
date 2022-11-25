@@ -7,8 +7,9 @@ def handler(state):
 
 main_endpoint = Endpoint(
     name="main",
-    title="Главная",
-    description="Привет, я простенькой бот",
+    title="Хочу участвовать!",
+    description="Вот ссылка - https://clck.ru/32mmCc \n"
+                "Переходи и заполняй форму!",
     handler=handler,
-    keyboard=[['info', 'author']],
+    keyboard=[['main']],
 )

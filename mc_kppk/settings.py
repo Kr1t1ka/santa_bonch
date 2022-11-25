@@ -2,9 +2,9 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = ''  # секретный ключ
-VK_CONFIRMATION_TOKEN = ''  # секретное слово
-VK_TOKEN = ''  # токен доступа
+SECRET_KEY = 'django'  # секретный ключ
+VK_CONFIRMATION_TOKEN = 'da20de72'  # секретное слово
+VK_TOKEN = 'vk1.a.tS3ZB_ID3g0htDy7b3cCr-6y3KDyoVIeFUhCvQBteBWfUY99WBByJ4ePLWbOPNqeBcKRiRshjkFW7_RC9xZVKpr2JQos0BYhXmtgB_M9F-e7SyBnxv5GHfLqzSjpiOzOrULHDjL9XSZtIR489ZY7bH70VVaKrwfX6tG2AxTq_LlhgmZWNfme8hLOLkQAaIqVMss2V4ZRAmma6KuQ0JMe0w'  # токен доступа
 
 DEBUG = True
 
