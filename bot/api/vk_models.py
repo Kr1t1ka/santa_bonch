@@ -39,4 +39,6 @@ class VkResponse:
             self.message = VkMessage(request['object']['message'])
         if 'secret' in request:
             self.secret = request['secret']
+        else:
+            self.secret = None
         self.type = request['type']

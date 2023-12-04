@@ -13,7 +13,7 @@ class VkBotViewSet(views.APIView):
     def post(self, request, *_, **__):
         request = VkResponse(request.data)
 
-        if request.secret != SECRET_KEY:
+        if request.secret and request.secret != SECRET_KEY:
             return HttpResponse('ok')
 
         if request.type == 'confirmation':
