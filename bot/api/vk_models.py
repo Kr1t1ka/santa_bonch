@@ -37,5 +37,6 @@ class VkResponse:
     def __init__(self, request):
         if 'object' in request:
             self.message = VkMessage(request['object']['message'])
-        self.secret = request['secret']
+        if 'secret' in request:
+            self.secret = request['secret']
         self.type = request['type']
